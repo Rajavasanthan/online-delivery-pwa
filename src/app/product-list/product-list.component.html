@@ -11,8 +11,10 @@
              </div>
              <div class="row" style="justify-content: space-between">
                <div class="col-xs-12">
-                 <h4 class="card-title">Rs.{{product.currentPrice}}</h4>
-                 <!-- <h4 class="card-title">Rs.{{product.priceList[0].price}}</h4> -->
+                <h4 class="card-title">Rs.{{
+                  (product.currentPrice === undefined) ?
+                  product.priceList[0].price : product.currentPrice
+                 }}</h4>
                </div>
                <div class="col-xs-12">
                  <select name="" id="" (change)="changeUnit(product,$event)">
