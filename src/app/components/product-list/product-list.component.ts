@@ -20,7 +20,7 @@ export class ProductListComponent implements OnInit {
     let unitPrice = product.priceList.find(obj => obj._id == event.target.value)
     console.log(unitPrice.price);
     
-    product.currentPrice = unitPrice.price
+    product.currentPrice = unitPrice.price;
     
   }
 
