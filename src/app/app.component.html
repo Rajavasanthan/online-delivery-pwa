@@ -1,58 +1,18 @@
+<!-- Navigation -->
+<app-navbar></app-navbar>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Pick My Grocery</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<!-- Header -->
+<app-banner></app-banner>
 
-  <!-- Header -->
-  <header>
-    <div class="container-fluid h-100 p-0 mb-3" style="overflow:hidden">
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-12">
-          <img src="/assets/images/bannar.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-    </div>
-  </header>
+<!-- Page Content -->
+<div class="container">
 
-  <!-- Page Content -->
-  <div class="container">
+  <router-outlet></router-outlet>
 
-   <app-product-list></app-product-list>
+  <!-- /.row -->
 
-  
-    <!-- /.row -->
+</div>
+<!-- /.container -->
 
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+<!-- Footer -->
+<app-footer></app-footer>
