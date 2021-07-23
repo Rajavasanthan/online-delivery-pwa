@@ -12,6 +12,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { CategoryComponent } from './components/category/category.component';
+import { CategoryCardComponent } from './components/category-card/category-card.component';
+import { OfferComponent } from './components/offer/offer.component';
+import { HomeComponent } from './components/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +23,10 @@ import { CategoryComponent } from './components/category/category.component';
     FooterComponent,
     BannerComponent,
     PageNotFoundComponent,
-    CategoryComponent
+    CategoryComponent,
+    CategoryCardComponent,
+    OfferComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
