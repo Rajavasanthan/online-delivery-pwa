@@ -1,3 +1,10 @@
-<div class="container"> 
-    <p>category-card works!</p>
+<h4 style="font-weight: bold;position: relative;left:calc(50% - 100px);margin: 50px 0 20px 0;color: rgb(56, 56, 56);">CATEGORY</h4>
+<div class="categoryContainer">
+  <div *ngFor="let category of categories" class="card categoryCard">
+    <div class="card-body" style="align-items: center;
+    justify-content: center;
+    display: flex;">
+      <h5 class="card-title">{{ category }}</h5>
+    </div>
+  </div>
 </div>

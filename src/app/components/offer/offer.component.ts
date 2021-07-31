@@ -18,10 +18,6 @@ export class OfferComponent implements OnInit {
   {
     description: 'Buy 2 Tomato & get 1 free',
     notes: 'ஆடி பெருக்கு சலுகை !'
-  },
-  {
-    description: 'Buy 2 Tomato & get 1 free',
-    notes: 'ஆடி பெருக்கு சலுகை !'
   }];
 
   constructor() { }

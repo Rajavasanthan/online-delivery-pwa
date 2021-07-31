@@ -1,0 +1,25 @@
+.categoryContainer {
+  display: flex;
+  margin: 0 20px;
+
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.categoryCard {
+  cursor: pointer;
+  height: 300px;
+  margin: 20px;
+  width: 200px;
+  border: 1px solid #ff5722;
+  color: #ff5722;
+  background: linear-gradient(215deg, #fff6f3a6, transparent);
+  border-radius: 5px;
+  transition: all linear 0.3s;
+}
+.categoryCard:hover {
+  /* box-shadow: 0px 0px 10px #0000004a; */
+  background-color: #1d1d1dad;
+  color: white;
+}
