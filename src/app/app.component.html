@@ -3,6 +3,13 @@
 
 <app-banner></app-banner>
 
+<nav style="margin: 0 0 15px 15px">
+  <a *ngFor="let path of currentPath" [routerLink]=path>{{
+    path || 'home'
+  }}  ›
+</a>
+</nav>
+
 <!-- Page Content -->
 <!-- <div class="container"> -->
   <div style="min-height: 60vh;">
