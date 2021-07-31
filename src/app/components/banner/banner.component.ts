@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
+  title = 'EoTo GROCERY 🍅';
+  description = 'அன்றாட வாழ்க்கைக்கு தேவையான காய் கறி, பழங்களை வாங்கி மகிழவும்!'
+
   constructor() { }
 
   ngOnInit() {

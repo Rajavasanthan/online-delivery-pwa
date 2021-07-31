@@ -1,4 +1,16 @@
-
-<div class="container"> 
-    <p>offer works!</p>
+<div class="offerContainer">
+  <!-- maybe we can bg img for offers -->
+  <!--make it like a carousel in the future-->
+  <div
+    *ngFor="let offer of offers"
+    class="card border-success text-success text-center p-3 offerCard">
+  <blockquote class="blockquote mb-0">
+    <p>{{ offer.description }}</p>
+    <footer class="blockquote-footer text-dark">
+      <small>
+        {{offer.notes }}
+      </small>
+    </footer>
+  </blockquote>
 </div>
+<div>

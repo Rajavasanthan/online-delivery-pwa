@@ -1,0 +1,14 @@
+.offerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.offerCard {
+  cursor: pointer;
+  background: #4caf500d;
+  min-height: 120px;
+  margin: 0 5px;
+  border-radius: 0;
+  width: 100%;
+}
